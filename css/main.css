@@ -1,0 +1,106 @@
+
+body {
+  margin: 0;
+  background: white;
+}
+
+h1, h2, h3 {
+  font-family: Palatino, sans-sans-serif;
+  font-size: 2rem;
+}
+
+body, p, ul, li {
+  font-family: Helvetica, serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: -0.04em;
+}
+
+.main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 50px;
+  border-radius: 2px;
+  background: white;
+}
+
+.info {
+  width: 60%;
+}
+.work {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.notes {
+  width: 80%;
+}
+
+img {
+  width: 95%;
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #005983;
+}
+
+a.visited {
+  color: #005983;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:focus {
+  text-decoration: none;
+  background: #ebd757;
+  border-bottom: 2px solid black;
+}
+
+
+ol, ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+
+.footer {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  color:  #616a6b;
+}
+
+/* viewport sizing  */
+
+.main {
+  max-width: 1600px;
+}
+
+@media screen and (max-width: 800px) {
+  .header, .intro, .links-nav, .cv, .education, .footer, .portfolio-item {
+    max-width: none;
+    margin-bottom: 75px;
+   }
+
+   .portfolio, .footer {
+     margin-top: 100px;
+   }
+
+   }
+ }
