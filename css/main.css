@@ -106,12 +106,11 @@ li {
 
 @media screen and (max-width: 800px) {
   .wrapper, .content, .info, .notes {
-    width: 95%;
-    margin-left: 5px;
-    margin-bottom: 50px;
+    width: 97%;
+    margin-left: 7px;
+    margin-bottom: 20px;
+    margin-top: 10px;
    }
-
-
 
    p, ul, li {
      font-size: 17px;
@@ -124,6 +123,9 @@ li {
       font-size: 18px;
     }
 
+    img {
+      width: 100%;
+    }
     .about-me {
       width: 90%;
       padding: 10px;
