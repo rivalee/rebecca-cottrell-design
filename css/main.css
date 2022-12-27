@@ -38,9 +38,9 @@ body, p, ul, li {
 .about-me {
   text-align: left;
   width: 50%;
-  background: #f4e7b8;
   padding: 20px;
-  border-bottom: 1px solid #c7b780;
+  background: #ffdfd1;
+  border-bottom: 1px solid #e2ab92;
 }
 .info {
   width: 60%;
