@@ -42,6 +42,13 @@ body, p, ul, li {
   border-top: 5px solid	#1d70b8;
   background-color: #f3f2f1;
 }
+
+.portrait {
+  width: 160px;
+  height: 193px;
+  background-image: url("../images/reb.jpeg");
+  background-color: pink;
+}
 .info {
   width: 60%;
 }
@@ -126,6 +133,8 @@ li {
     img {
       width: 100%;
     }
+
+   
     .about-me {
       width: 90%;
       padding: 10px;
