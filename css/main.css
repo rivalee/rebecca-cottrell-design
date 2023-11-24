@@ -44,10 +44,10 @@ body, p, ul, li {
 }
 
 .portrait {
-  width: 160px;
-  height: 193px;
+  width: 170px;
+  height: 170px;
   background-image: url("../images/reb.jpeg");
-  background-color: pink;
+  border-radius: 100px;
 }
 .info {
   width: 60%;
